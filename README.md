@@ -16,31 +16,30 @@ The application operates as a bidirectional microservice hub that strips away sc
 ---
 
 ## 🏛️ System Architecture
-
+```
 [ B2B Dashboard: Task Created ]
-│
-▼
+            │
+            ▼
 [ CAMEO Core (OpenStructure/UAG) ] ➔ Compiles Science to Raw Layout JSON
-│
-▼ (Verse Poll / Endpoint)
+            │
+            ▼ (Verse Poll / Endpoint)
 [ Fortnite Server (UEFN Runtime) ] ➔ Verse Script: Decodes JSON ➔ Spawns Creative Props
-│
-▼ (Player manipulates blocks & builds the structure)
+            │
+            ▼ (Player manipulates blocks & builds the structure)
 [ Fortnite Game Event: Press Validate ] ➔ Verse gathers positions: array[vector3]
-│
-▼ (POST Payload)
+            │
+            ▼ (POST Payload)
 [ INDUSTRIAL-CAMEO Router ] ➔ Normalizes Fortnite Grid to Angstroms / Micron scales
-│
-▼
+            │
+            ▼
 [ Evaluators (OpenStructure lDDT / Chip Sim) ] ➔ Returns Score (0.00 - 1.00)
-│
-▼
+            │
+            ▼
 [ Fortnite Server Response ] ➔ Triggers HUD Message Device + Grants In-Game Gold/Tokens
-│
-▼ (If Score >= Threshold)
+            │
+            ▼ (If Score >= Threshold)
 [ Escrow Ledger ] ➔ Authorizes Real Payout to Player Account
-
-
+```
 ---
 
 ## 💼 Cross-Industry Verticals & Verification Pipelines
