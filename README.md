@@ -1,6 +1,7 @@
 # INDUSTRIAL-CAMEO 🌐🎮🔬
 
-**INDUSTRIAL-CAMEO** is the core B2B orchestration gateway and partner interface for the **qFoldIT** ecosystem. It serves as a decentralized R&D bridge connecting industrial clients directly to thousands of gamers inside metaverse runtimes (Fortnite UEFN, Unity, WebGL), using custom **CAMEO (Continuous Automated Model EvaluatiOn)** verification pipelines for secure, real-time payouts.
+**INDUSTRIAL-CAMEO** is the core B2B orchestration gateway and partner interface for the **qFoldIT** ecosystem. <br> It serves as a decentralized R&D bridge connecting industrial clients directly to thousands of gamers inside metaverse runtimes (Fortnite UEFN, Unity, WebGL), using custom **CAMEO (Continuous Automated Model EvaluatiOn)** verification pipelines for secure, real-time payouts.
+
 ---
 
 ## 🎯 Core Intent & Connection Model
