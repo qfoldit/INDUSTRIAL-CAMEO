@@ -26,6 +26,10 @@ This repository provides a secure-by-default application shell and explicit inte
 - Scientific scores and commercial reward decisions are separate records.
 - Policy versions should be immutable and auditable.
 
+## Corporate IP boundary
+
+Production mission orchestration, customer-specific policies, confidential integrations and private deployment configuration belong in the qFoldIT corporate surface. Any source already distributed under an open-source license remains governed by that license; this document does not revoke previously granted rights.
+
 ## Production controls
 
-Use an enterprise IdP (OIDC/SAML), short-lived credentials, hardware-backed secrets where available, TLS everywhere, private networking for the scientific cluster, malware scanning for uploads, immutable audit storage, dependency scanning, signed release artifacts, and least-privilege service accounts.
+Use an enterprise IdP (OIDC/SAML), short-lived credentials, hardware-backed secrets where available, TLS everywhere, private networking for the scientific cluster, malware scanning for uploads, immutable audit storage, dependency scanning, signed release artifacts, least-privilege service accounts, protected default branches and private repository access for production corporate code.
